@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GroupSuite]">
+  <listeners>
+    <listener class-name="com.practice.main.transf"/>
+  </listeners>
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.practice.Test.Group">
+        <methods>
+          <include name="sleep"/>
+        </methods>
+      </class> <!-- com.practice.Test.Group -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [GroupSuite] -->

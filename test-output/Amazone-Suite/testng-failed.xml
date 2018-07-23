@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazone-Suite]">
+  <parameter name="XPATH" value="//div[.=&#039;Let Us Help You&#039;]/..//li"/>
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="URL" value="https://www.amazon.in"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.practice.Test.Amazon">
+        <methods>
+          <include name="amazonData"/>
+        </methods>
+      </class> <!-- com.practice.Test.Amazon -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Amazone-Suite] -->

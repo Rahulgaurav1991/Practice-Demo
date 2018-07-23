@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="" value=""/>
+  <listeners>
+    <listener class-name="com.practice.main.Runtime"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="" value=""/>
+    <classes>
+      <class name="com.practice.Test.Rahul">
+        <methods>
+          <include name="run"/>
+        </methods>
+      </class> <!-- com.practice.Test.Rahul -->
+      <class name="com.practice.Test.DependsOnMethod">
+        <methods>
+          <include name="sleep"/>
+          <include name="onMethods"/>
+        </methods>
+      </class> <!-- com.practice.Test.DependsOnMethod -->
+      <class name="com.practice.Test.Ng">
+        <methods>
+          <include name="run2"/>
+          <include name="preCondtions"/>
+          <include name="run3"/>
+          <include name="preCodition"/>
+        </methods>
+      </class> <!-- com.practice.Test.Ng -->
+      <class name="com.practice.Test.Amazon">
+        <methods>
+          <include name="amazonData"/>
+        </methods>
+      </class> <!-- com.practice.Test.Amazon -->
+      <class name="com.practice.Test.Group">
+        <methods>
+          <include name="sleep"/>
+        </methods>
+      </class> <!-- com.practice.Test.Group -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
