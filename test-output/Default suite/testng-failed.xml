@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.practice.Test.New">
+      <class name="com.practice.Test.selenium">
         <methods>
-          <include name="sleep"/>
+          <include name="data"/>
         </methods>
-      </class> <!-- com.practice.Test.New -->
+      </class> <!-- com.practice.Test.selenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

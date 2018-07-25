@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-<listeners>
-<listener class-name="com.practice.main.Screnshot"/>
-</listeners>
+<suite name="PracticeSuite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.practice.Test.Ng"/>
-    </classes>
+    <packages>
+    <package name="com.practice.Test"/>
+    </packages>
   </test> <!-- Test -->
-</suite> <!-- Suite -->
+</suite> <!-- PracticeSuite -->
