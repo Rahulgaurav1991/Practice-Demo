@@ -5,7 +5,7 @@
     <classes>
       <class name="com.practice.Test.selenium">
         <methods>
-          <include name="data"/>
+          <include name="window"/>
         </methods>
       </class> <!-- com.practice.Test.selenium -->
     </classes>

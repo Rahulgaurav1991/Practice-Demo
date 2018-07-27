@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Element is present]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15579" started-at="2018-07-25T06:09:10Z" finished-at="2018-07-25T06:09:25Z">
+  <suite name="Default suite" duration-ms="36687" started-at="2018-07-27T08:20:53Z" finished-at="2018-07-27T08:21:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15579" started-at="2018-07-25T06:09:10Z" finished-at="2018-07-25T06:09:25Z">
+    <test name="Default test" duration-ms="36687" started-at="2018-07-27T08:20:53Z" finished-at="2018-07-27T08:21:30Z">
       <class name="com.practice.Test.selenium">
-        <test-method status="PASS" signature="data()[pri:0, instance:com.practice.Test.selenium@9629756]" name="data" duration-ms="15557" started-at="2018-07-25T11:39:10Z" finished-at="2018-07-25T11:39:25Z">
+        <test-method status="PASS" signature="window()[pri:0, instance:com.practice.Test.selenium@9629756]" name="window" duration-ms="36663" started-at="2018-07-27T13:50:53Z" finished-at="2018-07-27T13:51:30Z">
           <reporter-output>
-            <line>
-              <![CDATA[Element is present]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- data -->
+        </test-method> <!-- window -->
       </class> <!-- com.practice.Test.selenium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
