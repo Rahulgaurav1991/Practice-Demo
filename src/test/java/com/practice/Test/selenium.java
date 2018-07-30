@@ -46,8 +46,6 @@ public class selenium {
 		driver.findElement(By.xpath("(//a[@title='Services'])[1]")).click();
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[.='Internet Banking']"))).click();
-
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//p[.='Internet Banking.']/../..//a[.='LOGIN NOW']")).click();
 		switchWindows(1);
 		String title = driver.getTitle();
